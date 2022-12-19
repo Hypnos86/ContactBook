@@ -6,7 +6,8 @@ namespace ContactBook
     {
         static void Main(string[] args)
         {
-           
+            Repository.AppWelcome();
+            Repository.AppMenu();
         }
     }
 }
